@@ -423,7 +423,7 @@ export default function Home() {
           <div style={{ background: 'white', padding: '2px 8px', borderRadius: '10px', color: '#5D4037', fontSize: '10px', fontWeight: 'bold', marginBottom: '2px', boxShadow: '0 2px 4px rgba(0,0,0,0.1)', whiteSpace: 'nowrap' }}>{player.solanaAddress.slice(0, 4)}</div>
           <div style={{ fontSize: '1em', filter: 'drop-shadow(0 4px 4px rgba(0,0,0,0.2))', animation: 'float 2s ease-in-out infinite' }}>🥑</div>
           {player.clicks > 0 && <div style={{ fontSize: '10px', color: '#FFF', background: '#81C784', padding: '0 4px', borderRadius: '4px', marginTop: '-5px' }}>{player.clicks}</div>}
-        </div>
+        </div> 
       ))}
     </main>
   );
